@@ -18,10 +18,10 @@ import commands
 lcd = Adafruit_CharLCDPlate()
 
 # Set the contents of IPe.txt to the variable called IPe
-status, IPe = commands.getstatusoutput("cat /home/pi/i2c-disp/IPe.txt")
+status, IPe = commands.getstatusoutput("cat IPe.txt")
 
 # Set the contents of IPw.txt to the variable called IPw
-status, IPw = commands.getstatusoutput("cat /home/pi/i2c-disp/IPw.txt")
+status, IPw = commands.getstatusoutput("cat IPw.txt")
 
 # Set a variable called 'host' containg the system hostname
 status, host = commands.getstatusoutput("hostname")
