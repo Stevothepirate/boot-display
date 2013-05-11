@@ -11,7 +11,7 @@ import os
 import commands
 
 # Run IP.sh script in the operating system to update IPe.txt & IPw.txt files
-os.system("./IP.sh")
+#os.system("./IP.sh")
 
 # Initialize the LCD plate.  Should auto-detect correct I2C bus.  If not,
 # pass '0' for early 256 MB Model B boards or '1' for all later versions
